@@ -1,0 +1,313 @@
+body {
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#color-options {
+    margin-bottom: 50px;
+}
+
+input[type="button"] {
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 2px;
+    margin: 0 6px;
+    outline: none;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+/************************************
+
+DEFAULT ROBOT FORMATTING
+
+************************************/
+
+
+#robot {
+    margin: 0 auto;
+}
+
+
+
+/************* HEAD **************/
+
+#head {
+    width: 180px;
+    height: 110px;
+    margin: inherit;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.single-eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -4px 2.5px 2px #333;
+    box-shadow: -4px 2.5px 2px #333;
+}
+
+.pupil {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #222;
+}
+
+#mouth {
+    width: 100px;
+    height: 5px;
+    margin: 14px auto 0;
+}
+
+#neck {
+    width: 60px;
+    height: 30px;
+    margin: inherit;
+}
+
+
+
+/************* BODY **************/
+
+#body {
+    display: flex;
+    justify-content: center;
+}
+
+.single-arm {
+    width: 50px;
+}
+
+.shoulder {
+    width: 50px;
+    height: 70px;
+}
+
+.arm {
+    width: 26px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.hand {
+    width: 36px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#torso {
+    width: 180px;
+    height: 200px;
+}
+
+#inner-torso {
+    width: 100px;
+    height: 140px;
+    margin: 20px auto;
+    -webkit-box-shadow: -4px 2.5px 8px #333;
+    box-shadow: -4px 2.5px 8px #333;
+}
+
+
+
+/************* LEGS **************/
+
+#legs {
+    display: flex;
+    justify-content: center;
+}
+
+.single-leg {
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    justify-content: center;
+}
+
+.leg {
+    width: 30px;
+    height: 60px;
+}
+
+.foot {
+    height: 20px;
+    width: 50px;
+    margin-top: -5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+
+/************************************
+
+COLOR: DEFAULT
+
+************************************/
+
+.default-primary {
+    background-color: #777;
+}
+.default-secondary {
+    background-color: #FAD02F;   
+}
+/************** FACE *************/
+.default-eye {
+    background-color: #f6f6f6;
+}
+.default-mouth {
+    background-color: #b6b6b6;
+}
+/********** ARMS/LEGS *************/
+.default-arm, .default-leg {
+    background-color: #B1D781;
+}
+.default-shoulder {
+    background-color: #F69229;
+}
+.default-hand, .default-foot {
+    background-color: #1FAB9E;
+}
+
+
+/************************************
+
+COLOR: WARM
+
+************************************/
+
+.warm-primary {
+    background-color: #E8390C;
+}
+.warm-secondary {
+    background-color: #E8800C;   
+}
+/************** FACE *************/
+.warm-eye {
+    background-color: #ccc;
+}
+.warm-mouth {
+    background-color: #262626;
+}
+/********** ARMS/LEGS *************/
+.warm-arm, .warm-leg {
+    background-color: #FFAC0D;
+}
+.warm-shoulder {
+    background-color: #FF5E00;
+}
+.warm-hand, .warm-foot {
+    background-color: #FF170C;
+}
+
+
+/************************************
+
+COLOR: COOL
+
+************************************/
+
+.cool-primary {
+    background-color: #247EE3;
+}
+.cool-secondary {
+    background-color: #29FDC2;   
+}
+/************** FACE *************/
+.cool-eye {
+    background-color: #fff;
+}
+.cool-mouth {
+    background-color: #ccc;
+}
+/********** ARMS/LEGS *************/
+.cool-arm, .cool-leg {
+    background-color: #35C5FA;
+}
+.cool-shoulder {
+    background-color: #24E2E3;
+}
+.cool-hand, .cool-foot {
+    background-color: #2954FD;
+}
+
+
+
+/************************************
+
+COLOR: EARTH
+
+************************************/
+
+.earth-primary {
+    background-color: #55756A;
+}
+.earth-secondary {
+    background-color: #A68F5F;   
+}
+/************** FACE *************/
+.earth-eye {
+    background-color: #f6f6f6;
+}
+.earth-mouth {
+    background-color: #98A685;
+}
+/********** ARMS/LEGS *************/
+.earth-arm, .earth-leg {
+    background-color: #F1E4C1;
+}
+.earth-shoulder {
+    background-color: #CBD7D5;
+}
+.earth-hand, .earth-foot {
+    background-color: #304940;
+}
+
+
+/************************************
+
+COLOR: BLACK AND WHITE
+
+************************************/
+
+.bw-primary {
+    background-color: #222;
+}
+.bw-secondary {
+    background-color: #a5a5a5;   
+}
+/************** FACE *************/
+.bw-eye {
+    background-color: #f4f4f4;
+}
+.bw-mouth {
+    background-color: #b2b2b2;
+}
+/********** ARMS/LEGS *************/
+.bw-arm, .bw-leg {
+    background-color: #ccc;
+}
+.bw-shoulder {
+    background-color: #333;
+}
+.bw-hand, .bw-foot {
+    background-color: #000;
+}
+
+

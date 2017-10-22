@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 | Olivia Orr</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/script.js"></script>
+</head>    
+<body>
+   <h1>Hang With Lil' Robot</h1>
+   <p>Choose a color palette and watch the robot change!</p>
+   <div id="color-options">
+        <input type="button" value="Warm" id="warm-button">
+        <input type="button" value="Cool" id="cool-button">
+        <input type="button" value="Earth" id="earth-button">
+        <input type="button" value="Black and White" id="bw-button">
+        <input type="button" value="Default" id="default-button">
+   </div>
+    <div id="robot">
+        <div id="head" class="color-primary">
+           <div class="eyes">
+                <div class="single-eye">
+                    <div class="pupil"></div>
+                </div>
+                <div class="single-eye">
+                    <div class="pupil"></div>
+                </div>
+            </div>
+            <div id="mouth"></div>
+        </div>
+        <div id="neck" class="color-secondary"></div>
+        <div id="body">
+            <div class="single-arm">
+                <div class="shoulder"></div>
+                <div class="arm"></div>
+                <div class="hand"></div>
+            </div>
+            <div id="torso" class="color-primary">
+                <div id="inner-torso" class="color-secondary"></div>
+            </div>
+            <div class="single-arm">
+                <div class="shoulder"></div>
+                <div class="arm"></div>
+                <div class="hand"></div>
+            </div>
+        </div>
+        <div id="legs">
+            <div class="single-leg">
+                <div class="leg"></div>
+                <div class="foot"></div>
+            </div>
+            <div class="single-leg">
+                <div class="leg"></div>
+                <div class="foot"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
